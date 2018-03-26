@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2018-03-26 09:00
 title: Formally moving blog presense to Github
 tags: blog
 ---

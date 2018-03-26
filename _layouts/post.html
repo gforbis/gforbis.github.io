@@ -3,12 +3,14 @@ layout: default
 ---
 
 <article class="post">
-  <span>[
+  {% if page.tags %}
+  <ul>[
     {% for tag in page.tags %}
       {% capture tag_name %}{{ tag }}{% endcapture %}
-      <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+      <li><a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a></li>
     {% endfor %}
-  ]</span>
+  ]</ul>
+  {% endif %}
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
