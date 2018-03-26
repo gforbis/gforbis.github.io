@@ -30,7 +30,7 @@ JSF is a standard Java EE tool for dynamically generating websites using servlet
   
 A basic understanding of each of these will prevent a lot of confusion when working in XPages.
 
-## JSF Lifecycle
+### JSF Lifecycle
 
 When a browser hits a JSF application, the following series of events are triggered:
 
