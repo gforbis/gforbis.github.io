@@ -15,8 +15,10 @@ h2 {
 h3 {
 	font-size:1.25rem;
 	color:#907248;
+	font-weight:normal;
 }
 h4 {
 	text-decoration:underline;
 	color:#666;
+	font-weight:normal;
 }
