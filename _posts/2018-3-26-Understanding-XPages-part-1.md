@@ -5,10 +5,27 @@ title: Understanding XPages Part 1
 tags: xpages blog
 ---
 
-## H2 How is XPages related to JSF and why is that important?
+## How is XPages related to JSF and why is that important?
 
-### H3 Next heading
+JSF is a standard Java EE tool for dynamically generating websites using servlets. XPages extends JSF with UI Components and Java libraries that allow the presentation of No-SQL (Domino) data to the browser. It can be very useful to understand JSF in order to understand how to leverage XPages rather than fighting against it. There is a lot of complexity to JSF, but much of it can be ignored if you are using it the right way.
 
-#### H4 Next Heading
+## Basic JSF Components
 
-JSF is a standard Java EE tool for dynamically generating websites using Servlets.
+* The page template
+  * Written in XML
+  * Parsed during the build and turned into Java classes
+* faces-config.xml
+  * Managed bean and component registration
+  * Dependency injection
+* JSF Lifecycle
+* Managed beans
+  * Serializable
+  * Zero-argument constructor
+  * Uses getters/setters or conforms to a supported interface
+* Scopes
+  * Application
+  * Session
+  * View
+  * Request
+  
+Each of these topics can be explored in great depth and complexity, but some basic understanding of each will prevent a lot of trouble.
