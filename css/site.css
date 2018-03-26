@@ -14,9 +14,9 @@ h2 {
 
 h3 {
 	font-size:1.25rem;
-	font-color:#907248;
+	color:#907248;
 }
 h4 {
-	font-decoration:underline;
-	font-color:#666;
+	text-decoration:underline;
+	color:#666;
 }
