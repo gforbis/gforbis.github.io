@@ -6,4 +6,5 @@ tags: xpages blog
 ---
 
 # How is XPages related to JSF and why is that important?
+
 JSF is a standard Java EE tool for dynamically generating websites using Servlets.
