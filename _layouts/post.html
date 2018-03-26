@@ -4,7 +4,7 @@ layout: default
 
 <article class="post">
   {% if page.tags %}
-  <ul id="taglist">
+  tags: <ul id="taglist">
     {% for tag in page.tags %}
       {% capture tag_name %}{{ tag }}{% endcapture %}
       <li><a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a></li>
