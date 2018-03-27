@@ -24,23 +24,23 @@ JSF automatically creates objects for you when you need them by using the `Bean.
 
 What does serializable mean? It means an object in memory can be turned into a representation of the current state, stored or transmitted, and then used to create a new object that is identical to the original. Here is an example:
 
-````
+```
 public class Person {
   private String firstName;
   private String lastName;
   private Date birthday;
 }
-````
+```
 
 This can be serialized into a JSON string like so:
 
-````
+```
 {
   "firstName":"John",
   "lastName":"Smith",
   "birthday":"1990/04/28"
 }
-````
+```
 
 And given that JSON string, we could rebuild the Person object a year later with 100% fidelity. Now consider an object that contains an open File handle or OutputStream - those are objects which cannot be serialized. We indicate an object is serializable through the `Serializable` interface. This adds no code to our object and we can declare it like so: `public class Person implements Serializable`. If you don't do this for a bean, you will get intermittent `NotSerializableException` errors from JSF. Intermittent because JSF handles serialization automatically for you and you only get the error if it needs to serialize an object and cannot.
 
