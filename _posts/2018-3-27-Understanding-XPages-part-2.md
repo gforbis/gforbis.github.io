@@ -15,7 +15,7 @@ If you aren't familiar with beans, then you need to know there are three things 
 3. They use accessor methods (getters and setters)
 
 The question is, why are these things important to us in JSF?
-
+<!-- more -->
 ### Zero-argument constructor
 
 JSF automatically creates objects for you when you need them by using the `Bean.class.newInstance()` method. This is really useful because it means we don't have to worry about it. But it also means we can't pass arguments to the constructor. Use dependency injection and lazy instantiation whenever possible. Be extremely wary of accessing other beans in your constructor through static methods. It can lead to circular dependencies and other difficult-to-troubleshoot bugs.
