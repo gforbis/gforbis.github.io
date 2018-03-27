@@ -24,7 +24,7 @@ JSF automatically creates objects for you when you need them by using the `Bean.
 
 What does serializable mean? It means an object in memory can be turned into a representation of the current state, stored or transmitted, and then used to create a new object that is identical to the original. Here is an example:
 
-```
+```java
 public class Person {
   private String firstName;
   private String lastName;
@@ -34,7 +34,7 @@ public class Person {
 
 This can be serialized into a JSON string like so:
 
-```
+```java
 {
   "firstName":"John",
   "lastName":"Smith",
