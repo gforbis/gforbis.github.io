@@ -34,7 +34,7 @@ public class Person {
 
 This can be serialized into a JSON string like so:
 
-```java
+```javascript
 {
   "firstName":"John",
   "lastName":"Smith",
