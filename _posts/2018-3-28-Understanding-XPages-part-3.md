@@ -3,6 +3,7 @@ layout: post
 date: 2018-03-28 09:00
 title: Understanding XPages Part 3
 tags: xpages jsf
+published: true
 ---
 [Part 1](/Understanding-XPages-part-1) [Part 2](/Understanding-XPages-part-2) Part 3
 
