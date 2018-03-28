@@ -213,6 +213,18 @@ img {
   }
 }
 
+#taglist {
+	display:inline-block;
+	padding-left:1rem;
+}
+
+#taglist li {
+	display:inline;
+	list-style-type:none;
+	padding-right:1rem;
+}
+
+
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
@@ -227,7 +239,7 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin-left: 1.5rem;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
