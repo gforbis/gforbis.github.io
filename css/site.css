@@ -9,6 +9,14 @@
 	padding-right:1rem;
 }
 
+body {
+	background-color:#ddc;
+}
+
+.wrapper-masthead, .wrapper-footer, #main {
+	background-color:#eed;
+}
+
 html,body {
 	font-size:16px;
 }
