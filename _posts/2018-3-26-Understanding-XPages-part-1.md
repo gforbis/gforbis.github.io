@@ -4,7 +4,7 @@ date: 2018-03-26 11:30
 title: Understanding XPages Part 1
 tags: xpages jsf
 ---
-Part 1 [Part 2](/Understanding-XPages-part-2)
+Part 1 [Part 2](/Understanding-XPages-part-2) [Part 3](/Understanding-XPages-part-3)
 
 ## How is XPages related to JSF and why is that important?
 

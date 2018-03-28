@@ -1,10 +1,10 @@
 ---
 layout: post
-date: 2018-03-26 11:30
+date: 2018-03-27 09:00
 title: Understanding XPages Part 2
 tags: xpages jsf
 ---
-[Part 1](/Understanding-XPages-part-1) Part 2
+[Part 1](/Understanding-XPages-part-1) Part 2 [Part 3](/Understanding-XPages-part-3)
 
 ## Managed Beans
 
