@@ -5,7 +5,11 @@ title: Understanding XPages Part 3
 tags: xpages jsf
 published: true
 ---
-[Part 1](/Understanding-XPages-part-1) [Part 2](/Understanding-XPages-part-2) Part 3
+<nav>
+[Part 1](/Understanding-XPages-part-1)
+[Part 2](/Understanding-XPages-part-2)
+[Part 3](/Understanding-XPages-part-3)
+</nav>
 
 ## Scopes
 
