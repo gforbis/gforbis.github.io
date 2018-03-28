@@ -5,12 +5,6 @@ title: Understanding XPages Part 3
 tags: xpages jsf
 published: true
 ---
-<nav>
-[Part 1](/Understanding-XPages-part-1)
-[Part 2](/Understanding-XPages-part-2)
-[Part 3](/Understanding-XPages-part-3)
-</nav>
-
 ## Scopes
 
 Before going too much further in our exploration of JSF, it is important to make sure there is a clear understanding of exactly what scopes are and how they work. Within XPages, there are 4 scopes, which are just `Map<String,Object>` objects to store values. Going from narrowest to broadest they are:
@@ -42,3 +36,7 @@ The application scope is shared by all application users. It is created once and
 #### Considerations
 
 While these are simple maps, JSF uses them internally. Don't issue haphazzard `clear()` commands to reset state.
+
+[Part 1](/Understanding-XPages-part-1)
+[Part 2](/Understanding-XPages-part-2)
+[Part 3](/Understanding-XPages-part-3)

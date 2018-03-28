@@ -5,11 +5,6 @@ title: Understanding XPages Part 1
 tags: xpages jsf
 published: true
 ---
-<nav markdown=1>
-[Part 1](/Understanding-XPages-part-1)
-[Part 2](/Understanding-XPages-part-2)
-[Part 3](/Understanding-XPages-part-3)
-</nav>
 ## How is XPages related to JSF and why is that important?
 
 JSF is a standard Java EE tool for dynamically generating websites using servlets. XPages extends JSF with UI Components and Java libraries that allow the presentation of No-SQL (Domino) data to the browser. It can be very useful to understand JSF in order to understand how to leverage XPages rather than fighting against it. There is a lot of complexity to JSF, but you can get a lot out of it without plumbing its full depth.
@@ -60,3 +55,7 @@ When a browser hits a JSF application, the following series of events are trigge
 #### Considerations
 
 Bean values can (and usually will) be retrieved several times during this process. It is important to only do expensive computations once and cache the value in the request scope for subsequent retrieval. You don't want to do a full-text search 7 times per page load. That advice notwithstanding, be mindful of premature optimization.
+
+[Part 1](/Understanding-XPages-part-1)
+[Part 2](/Understanding-XPages-part-2)
+[Part 3](/Understanding-XPages-part-3)

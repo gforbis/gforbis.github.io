@@ -5,12 +5,6 @@ title: Understanding XPages Part 2
 tags: xpages jsf
 published: true
 ---
-<nav>
-[Part 1](/Understanding-XPages-part-1)
-[Part 2](/Understanding-XPages-part-2)
-[Part 3](/Understanding-XPages-part-3)
-</nav>
-
 ## Managed Beans
 
 If you aren't familiar with beans, then you need to know there are three things that define a bean compared to a plain old Java object (POJO).
@@ -64,3 +58,7 @@ This is a "soft" requirement because JSF also recognizes the `Map` and `List` in
 2. Boolean values will be retrieved via `isValue()` rather than `getValue()`.
 3. Values returned can be beans, maps, etc and chained. (e.g. `#{Bean.owner.name}` will be turned into `Bean.getOwner().getName()`).
 4. Array notation can also be used (e.g. `#{Bean['value']}`).
+
+[Part 1](/Understanding-XPages-part-1)
+[Part 2](/Understanding-XPages-part-2)
+[Part 3](/Understanding-XPages-part-3)
