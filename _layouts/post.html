@@ -4,12 +4,12 @@ layout: default
 
 <article class="post">
   {% if page.tags %}
-  <nav id="taglist">
+  tags: <ul id="taglist">
     {% for tag in page.tags %}
       {% capture tag_name %}{{ tag }}{% endcapture %}
-      <a href="/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr></a>
+      <li><a href="/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr></a></li>
     {% endfor %}
-  </nav>
+  </ul>
   {% endif %}
   <h1>{{ page.title }}</h1>
 
