@@ -5,7 +5,7 @@ title: Understanding XPages Part 1
 tags: xpages jsf
 published: true
 ---
-<nav>
+<nav markdown=1>
 [Part 1](/Understanding-XPages-part-1)
 [Part 2](/Understanding-XPages-part-2)
 [Part 3](/Understanding-XPages-part-3)
