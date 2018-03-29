@@ -45,7 +45,7 @@ And given that JSON string, we could rebuild the Person object a year later with
 
 ### Accessor methods
 
-This is a "soft" requirement because JSF also recognizes the `Map` and `List` interfaces (and XPages recognizes `DataObject`). The reason this is important is because this is how the template (XPage) uses Expression Languate (EL) to talk to beans. In your XML you can place a component and write `value="#{Bean.value}"` and this is translated to the following sequence of events:
+This is a "soft" requirement because Expression Language (EL - which I will get into in more depth in another post) also recognizes the `Map` and `List` interfaces (and XPages recognizes `DataObject`). The reason this is important is because this is how the template (XPage) uses EL to talk to beans. In your XML you can place a component and write `value="#{Bean.value}"` and this is translated to the following sequence of events:
 
 1. Look for an existing bean.
 2. If it doesn't exist, create it using `newInstance()` and store it in the scope indicated in faces-config.xml.
