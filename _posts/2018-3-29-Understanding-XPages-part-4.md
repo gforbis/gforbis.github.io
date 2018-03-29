@@ -3,7 +3,7 @@ layout: post
 date: 2018-03-29 16:00
 title: Understanding XPages Part 4
 tags: xpages jsf
-published: false
+published: true
 ---
 ## Expression Language
 
