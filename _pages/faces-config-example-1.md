@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Example faces-config.xml
-permalink: /faces-config-1/
+permalink: /faces-config-example-1/
 ---
 ```xml
 <faces-config>
