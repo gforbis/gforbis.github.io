@@ -44,7 +44,7 @@ public class UserService {
   [...]
 }
 ```
-(See [Objects class here](/objectsutil/))
+(See [Objects class here]({{ /objects.java/ }}))
 
 Note that the property name is lower case due to the convention that a property named appConfig will be accessed through `getAppConfig()` and `setAppConfig(...)`. This is the preferred way to managed dependencies, but it doesn't work in every case.
 
