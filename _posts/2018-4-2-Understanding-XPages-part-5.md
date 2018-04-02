@@ -3,7 +3,7 @@ layout: post
 date: 2018-04-02 13:00
 title: Understanding XPages Part 5
 tags: xpages jsf
-published: true
+published: false
 ---
 ## Faces-Config.xml and Dependency Injection
 Hopefully this isn't a new term for you, but here is a brief explanation in case it is. Beans often rely on one another. Your `MyStuff` bean needs your `User` bean; your `User` bean needs your `UserService` bean. Outside of JSF, we would pass these dependencies through the constructor, but that isn't an option due to the zero-argument requirement. So JSF provides another mechanism for initializing beans in faces-config.xml - the managed property. (Side note: newer versions of JSF move this out of faces-config and into class annotations.)
