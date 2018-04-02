@@ -44,7 +44,7 @@ public class UserService {
   [...]
 }
 ```
-(See [Objects class here]({{ '/_pages/objects.java/' | relative_url }}))
+(See [Objects class here]({{ '/pages/objects.java/' | relative_url }}))
 
 Note that the property name is lower case due to the convention that a property named appConfig will be accessed through `getAppConfig()` and `setAppConfig(...)`. This is the preferred way to managed dependencies, but it doesn't work in every case.
 
