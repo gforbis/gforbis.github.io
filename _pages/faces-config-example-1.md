@@ -25,5 +25,10 @@ permalink: /faces-config-example-1/
     <managed-bean-class>com.example.ProjectService</managed-bean-class>
     <managed-bean-scope>request</managed-bean-scope>
   </managed-bean>
+  <managed-bean>
+    <managed-bean-name>UserService</managed-bean-name>
+    <managed-bean-class>com.example.UserService</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+  </managed-bean>
 </faces-config>
 ```
