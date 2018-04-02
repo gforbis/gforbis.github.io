@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Objects.java
-permalink: /objects.java/
+permalink: /objectsutil/
 ---
 ```java
 public class Objects {

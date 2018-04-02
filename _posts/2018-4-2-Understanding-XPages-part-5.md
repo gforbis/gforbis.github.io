@@ -44,14 +44,14 @@ public class UserService {
   [...]
 }
 ```
-(See [Objects class here](/objects.java/))
+(See [Objects class here](/objectsutil/))
 
 Note that the property name is lower case due to the convention that a property named appConfig will be accessed through `getAppConfig()` and `setAppConfig(...)`. This is the preferred way to managed dependencies, but it doesn't work in every case.
 
 
 #### VariableResolver
 
-The `User` bean needs the `UserService` but there is a problem. If we inject the `UserService` using the above technique, it is only valid for the first request. The `UserService` bean is request scope, so it is destroyed after each request. If the `User` needs to call upon it any time after the first request, an error would be thrown. So JSF helpfully disallows you from setting a request-scoped bean as a managed property in any bean with a larger scope. This is where we need to make user of the `VariableResolver`. I created a [utility class](/faces.java/) which has a `findBean(...)` function that makes use of this technique.
+The `User` bean needs the `UserService` but there is a problem. If we inject the `UserService` using the above technique, it is only valid for the first request. The `UserService` bean is request scope, so it is destroyed after each request. If the `User` needs to call upon it any time after the first request, an error would be thrown. So JSF helpfully disallows you from setting a request-scoped bean as a managed property in any bean with a larger scope. This is where we need to make user of the `VariableResolver`. I created a [utility class](/facesutil/) which has a `findBean(...)` function that makes use of this technique.
 
 Using this function I can grab `UserService` at any time by calling `Faces.findBean("UserService", UserService.class)`. This can be improved slightly by making it a static getter on the class itself:
 

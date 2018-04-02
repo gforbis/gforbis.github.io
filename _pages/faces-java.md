@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Faces.java
-permalink: /faces.java/
+permalink: /facesutil/
 ---
 ```java
 public class Faces {
