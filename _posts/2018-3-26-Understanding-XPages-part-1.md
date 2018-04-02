@@ -56,6 +56,4 @@ When a browser hits a JSF application, the following series of events are trigge
 
 Bean values can (and usually will) be retrieved several times during this process. It is important to only do expensive computations once and cache the value in the request scope for subsequent retrieval. You don't want to do a full-text search 7 times per page load. That advice notwithstanding, be mindful of premature optimization.
 
-[Part 1](/Understanding-XPages-part-1)
-[Part 2](/Understanding-XPages-part-2)
-[Part 3](/Understanding-XPages-part-3)
+{% include undrstndxpgnav.html %}

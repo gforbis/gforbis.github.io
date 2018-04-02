@@ -59,6 +59,4 @@ This is a "soft" requirement because Expression Language (EL - which I will get 
 3. Values returned can be beans, maps, etc and chained. (e.g. `#{Bean.owner.name}` will be turned into `Bean.getOwner().getName()`).
 4. Array notation can also be used (e.g. `#{Bean['value']}`).
 
-[Part 1](/Understanding-XPages-part-1)
-[Part 2](/Understanding-XPages-part-2)
-[Part 3](/Understanding-XPages-part-3)
+{% include undrstndxpgnav.html %}

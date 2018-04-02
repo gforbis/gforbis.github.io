@@ -59,3 +59,5 @@ Expression language can be chained. e.g. `#{User.cases.openCount}` will call the
 Expression language can perform limited conditional statements such at `styleClass="#{Project.status eq 'overdue' ? 'red' : 'green'}"`. The full list of operators can be [found here](https://docs.oracle.com/javaee/6/tutorial/doc/bnaik.html). You cannot use `<` and `>` because those have a specific meaning in xml, but I believe you can substitute `&amp;lt;` and `&amp;gt;`. Importantly, you cannot do string concatenation within an EL statement, but you can concatenate two separate statements.
 
 Expression language - at least the version used in XPages - does not support passing parameters. There is a relatively easy hack around this, though (which I will get into in another post).
+
+{% include undrstndxpgnav.html %}

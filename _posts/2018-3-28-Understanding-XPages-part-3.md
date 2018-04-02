@@ -37,6 +37,4 @@ The application scope is shared by all application users. It is created once and
 
 While these are simple maps, JSF uses them internally. Don't issue haphazzard `clear()` commands to reset state.
 
-[Part 1](/Understanding-XPages-part-1)
-[Part 2](/Understanding-XPages-part-2)
-[Part 3](/Understanding-XPages-part-3)
+{% include undrstndxpgnav.html %}
